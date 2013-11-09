@@ -1,0 +1,593 @@
+body{
+    margin-top:75px;
+}
+.noDisp {display:none;}
+.alpha { margin-left: 0; }
+.omega { margin-right: 0; }
+
+.lambda{ padding-left:0; }
+.rho { padding-right:0; }
+.img-respond{height:auto; width:100%;}
+
+.centered{
+    float:none;
+    margin: 0 auto;
+}
+
+.bannerTitle {
+    margin: 20px 0;
+    background:url('../images/bannerTitleBG.png') repeat-x 0 60%;
+}
+
+.bannerTitle h1{
+    font-size: 3em;
+    font-weight: 100;
+    color: #000;
+    display: inline-block;
+    background:#ffffff;
+    padding-right:10px;
+}
+
+/*banner 1*/
+.bannerOneImg {
+    padding-top: 35px;
+    height: 435px;
+}
+
+.bannerOneTitle h1{
+    font-size:4em;
+    font-weight:200;
+}
+
+.bannerOneSubTitle h3 {
+    font-weight: 100;
+}
+.comingSoon{
+    margin:50px 0 0 0;
+}
+.comingSoon p{
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #666;
+    width: 35%;
+    font-weight: 100;
+    font-size: 1.35em;
+    margin:auto;
+}
+/*end banner 1*/
+/*banner 2*/
+.bannerTwoRow{
+    margin: 25px 0;
+}
+
+.bannerTwoIcon{
+    margin: 10px 0 0 0;
+}
+
+.bannerTwoIconTitle h4{
+    font-size: 1.5em;
+    color: #000;
+    font-weight:100;
+}
+
+.bannerTwoIconText{
+    font-size: 1.15em;
+    line-height: 1.25em;
+    color: #666;
+    font-weight:200;
+}
+
+/*end banner two*/
+/*banner 3*/
+h3.techSpecsTitle{
+    font-weight:100;
+    font-size:2em;
+    margin:0 0 30px 0;
+}
+
+.bannerThreeImg{
+    height:75px;
+    width:75px;
+    margin: 0 auto;
+}
+
+.techSpecBox{
+    height:220px;
+}
+
+.techSpecBoxTitle h5{
+    font-size: 1.5em;
+    color: #000;
+    font-weight: 100;
+}
+
+.techSpecBoxText{
+    font-size: 1.15em;
+    line-height: 1.25em;
+    color: #666;
+    font-weight: 200;
+
+}
+
+#bannerThreeScreen{
+    background: url('../images/screen.png') no-repeat;
+}
+#bannerThreeMemory{
+    background: url('../images/memory.png') no-repeat;
+}
+#bannerThreeProcessor{
+    background: url('../images/processor.png') no-repeat;
+}
+#bannerThreeSize{
+    background: url('../images/size.png') no-repeat;
+}
+
+.techSpecsImg{
+    margin: 0 auto;
+    height: 350px;
+    max-width: 225px;
+    /*background: url('../images/uWatchAngled.jpg') no-repeat;*/
+}
+
+.featuresUmbrellaIcon{
+    color:#005275;
+}
+
+.featuresCalendarIcon{
+    color:#c2534a;
+}
+
+.featuresShieldIcon{
+    color:#4c8e9d;
+}
+
+.featuresHeartIcon{
+    color:#fe5f38;
+}
+
+.featuresNotificationIcon{
+    color:#8ed6e6;
+}
+
+.featuresSyncingIcon{
+    color:#834C24;
+}
+
+.featuresBellIcon {
+    color: #7d4baa;
+}
+
+.featuresAppIcon{
+    color:#00754A;
+}
+
+/*end banner 3*/
+/*banner 4*/
+.uWatchShell{
+    margin: 30px auto 0;
+    position:relative;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    background: url('../images/uWatchShell.png') no-repeat;
+    background-size: 315px 500px;
+}
+
+.uWatchApps {
+    position: absolute;
+    top: 106px;
+    left: 17px;
+    height: 254px;
+    width: 269px;
+    background:url('../images/uWatchAppBG.png') no-repeat;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.uWatchShellTopBar{
+    height:20px;
+    margin:0 0 0 10px;
+    background:url('../images/uWatchAppTopBar.png') no-repeat;
+    z-index:10;
+}
+
+.uWatchShellClock{
+    height:100px;
+    margin:0 0 0 10px;
+    background:url('../images/uWatchAppClock.png') no-repeat;
+    background-size: 260px 100px;
+}
+
+.uWatchShellClock .hidden{
+    display:none;
+}
+
+.uWatchShellWeather{
+    height:50px;
+    margin: 0 0 0 10px;
+    background:url('../images/uWatchAppWeather.png') no-repeat;
+}
+
+.uWatchAppClock{
+    margin:10px 0 0;
+}
+
+.uWatchAppClock.active{
+    display:none;
+}
+
+.uWatchShellIcons{
+    display: inline;
+    position: absolute;
+    bottom: -6px;
+    width: 250px;
+    height: 50px;
+    left: 12px;
+}
+
+.uWatchAppIcon{
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+    display: inline;
+    color: #ffffff;
+    float: left;
+    margin: 0 0 0 13px;
+}
+
+.uWatchAppIcon.hidden{
+    display:none;
+}
+
+.uWatchDialPad{
+    position: absolute;
+    bottom: 0;
+    left: -11px;
+    height: 254px;
+    width: 269px;
+    border-radius: 16px;
+    overflow: hidden;
+    background:url('../images/uWatchDialPad.png');
+}
+
+.uWatchContacts{
+    position: absolute;
+    bottom: -14px;
+    left: -12px;
+    height: 263px;
+    width: 270px;
+    border-radius: 16px;
+    overflow: hidden;
+    background:url('../images/uWatchAppContacts.png');
+}
+
+.uWatchMessaging{
+    position: absolute;
+    bottom: 0;
+    left: -15px;
+    height: 250px;
+    width: 269px;
+    border-radius: 16px;
+    overflow: hidden;
+    background:url('../images/uWatchAppMessaging.png');
+}
+
+.uWatchMediaPlayer{
+    position: absolute;
+    bottom: 0;
+    left: -13px;
+    height: 260px;
+    width: 268px;
+    border-radius: 16px;
+    overflow: hidden;
+    background:url('../images/uWatchAppMediaPlayer.png');
+}
+
+.phoneIcon{
+    background-color: #3fbe2a;
+    padding: 5px 8px 2px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.phoneIcon.active{
+    display:none;
+}
+
+.contactsIcon{
+    background-color: #8ed6e6;
+    padding: 5px 8px 2px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.mailIcon.active{
+    display:none;
+}
+
+.messageIcon{
+    background-color: #a1e97a;
+    padding: 5px 8px 2px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.messageIcon.active{
+    display:none;
+}
+
+.mediaPlayerIcon{
+    background-color: #ca345c;
+    padding: 5px 8px 2px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.mediaPlayerIcon.active{
+    display:none;
+}
+
+.backButtonOuter {
+    position: relative;
+    right: 16%;
+    top: -118px;
+}
+
+.appRow{
+    margin:10px auto;
+}
+
+.appIcon{
+    padding:10px 0 0 0;
+}
+
+h3.appsTitle{
+    font-size:2.5em;
+    font-weight:100;
+}
+
+h4.appTitle {
+    font-size: 1.75em;
+    color: #000;
+    font-weight: 100;
+}
+
+.clockAppIcon{
+    color:#b28685;
+}
+
+.weatherAppIcon{
+    color:#84bde9;
+}
+
+.contactAppIcon{
+    color:#3fbe2a;
+}
+
+.mediaPlayerAppIcon{
+    color:#ca345c;
+}
+
+.messagingAppIcon{
+    color:#a1e97a;
+}
+
+.backBtn {
+    border-radius: 6px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #666;
+    width: auto;
+    font-weight: 100;
+    font-size: 1em;
+    padding: 5px;
+}
+
+
+.demoBox {
+    border-radius: 6px;
+    border: 1px solid #666;
+    width: 35%;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin: -30px 0 0 60px;
+    padding: 10px 0 0 0;
+}
+
+.appsSectionText p{
+    font-size: 1.15em;
+    line-height: 1.25em;
+    color: #666;
+    font-weight: 200;
+}
+/*end banner 4*/
+/*banner 5*/
+#contact{
+    margin: 25px auto;
+}
+#map{
+    width:100%;
+    height:465px;
+}
+
+.contactForm{
+    padding:25px;
+    border-radius: 6px;
+    border-left: 1px solid #cccccc;
+}
+
+/*end banner 5*/
+@media (max-width: 1199px){
+    .bannerOneImg {
+        height: 375px;
+    }
+
+    .bannerOneTitle h1 {
+        font-size: 3.75em;
+    }
+
+    h3.techSpecsTitle{
+        font-size:1.75em;
+    }
+
+    .backButtonOuter {
+        right: 9%;
+    }
+
+    .demoBox {
+        width: 45%;
+        font-size: 1.5em;
+        margin: -30px 0 0 60px;
+        padding: 10px 0 0 0;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .bannerOneImg {
+        padding-top: 35px;
+        height: 30%;
+    }
+
+    .bannerOneTitle h1 {
+        font-size: 2.75em;
+    }
+
+    .bannerOneSubTitle h3{
+        font-size:1.75em;
+    }
+
+    h3.techSpecsTitle{
+        text-align:center;
+        font-size:1.55em;
+    }
+
+    .techSpecsImg{
+        margin:75px 0 0 0;
+    }
+
+    .comingSoon p{
+        width:55%;
+    }
+
+    h3.appsTitle{
+        font-size:2.2em;
+    }
+}
+
+@media (max-width:767px){
+
+    .bannerOneTitle h1 {
+        font-size: 2.6em;
+    }
+
+    .bannerOneImg {
+        height: 50%;
+    }
+
+    .techSpecsImg {
+        margin: 0px auto 0 auto;
+    }
+
+    .demoBox {
+        width: 30%;
+        margin: 15px 0px 25px 85px;
+    }
+
+    .contactForm{
+        border:none;
+    }
+}
+
+@media (max-width: 480px){
+    .comingSoon p{
+        width:65%;
+    }
+
+    .uWatchShell {
+        margin: 30px -15px 0px;
+        width: 110%;
+    }
+    .demoBox {
+        width: 50%;
+        margin: -25px 0px 15px 39px;
+    }
+
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    /*banner 3*/
+    #bannerThreeScreen{
+        background: url('../images/screen@2x.png') no-repeat;
+        background-size: 75px 75px;
+    }
+    #bannerThreeMemory{
+        background: url('../images/memory@2x.png') no-repeat;
+        background-size: 75px 75px;
+    }
+    #bannerThreeProcessor{
+        background: url('../images/processor@2x.png') no-repeat;
+        background-size: 75px 75px;
+    }
+    #bannerThreeSize{
+        background: url('../images/size@2x.png') no-repeat;
+        background-size: 75px 75px;
+    }
+    .techSpecsImg{
+        /*background: url('../images/uWatchAngled@2x.jpg') no-repeat;*/
+        background-size: 225px 350px;
+    }
+    /*end banner 3*/
+
+    /*banner 4*/
+    .uWatchShell{
+        background:url('../images/uWatchShell@2x.png') no-repeat;
+        background-size: 303px 500px;
+    }
+    .uWatchApps {
+        left: 21px;
+        width: 251px;
+    }
+    .uWatchShellTopBar{
+        margin:0;
+        background:url('../images/uWatchAppTopBar@2x.png') no-repeat;
+        background-size: 260px 20px;
+        z-index: 10;
+    }
+    .uWatchShellClock{
+        margin: 15px -10px 0 0;
+        background:url('../images/uWatchAppClock@2x.png') no-repeat;
+        background-size:260px 100px;
+    }
+    .uWatchShellWeather{
+        background:url('../images/uWatchAppWeather@2x.png') no-repeat;
+        background-size:110px 50px;
+    }
+
+    .uWatchShellIcons{
+        display: inline;
+        position: absolute;
+        bottom: -6px;
+        width: 250px;
+        height: 50px;
+        left: 0px;
+    }
+
+    .uWatchDialPad{
+        position: absolute;
+        top: 5px;
+        left: 0px;
+        height: 254px;
+        width: 269px;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    /*end banner 4*/
+}
