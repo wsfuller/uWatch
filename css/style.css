@@ -236,9 +236,14 @@ h3.techSpecsTitle{
     margin: 0 0 0 13px;
 }
 
-.uWatchAppIcon.hidden{
-    display:none;
-}
+/*.uWatchAppIcon.hidden{*/
+    /*display:none;*/
+    /*-webkit-transition: all 1s ease-out;*/
+    /*-moz-transition: all 1s ease-out;*/
+    /*-o-transition: all 1s ease-out;*/
+    /*transition: all 1s ease-out;*/
+    /*opacity:0;*/
+/*}*/
 
 .uWatchDialPad{
     position: absolute;
@@ -282,6 +287,33 @@ h3.techSpecsTitle{
     border-radius: 16px;
     overflow: hidden;
     background:url('../images/uWatchAppMediaPlayer.png');
+
+
+    -webkit-transition: background 3000ms ease-in 2s; /* property duration timing-function delay */
+    -moz-transition: background 3000ms ease-in 2s;
+    -o-transition: background 3000ms ease-in 2s;
+    transition: background 3000ms ease-in 2s;
+
+
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 3000ms;
+    -webkit-transition-timing-function: ease-in;
+    -webkit-transition-delay: 1000ms;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: 3000ms;
+    -moz-transition-timing-function: ease-in;
+    -moz-transition-delay: 1000ms;
+
+    -o-transition-property: background;
+    -o-transition-duration: 3000ms;
+    -o-transition-timing-function: ease-in;
+    -o-transition-delay: 1000ms;
+
+    transition-property: background;
+    transition-duration: 3000ms;
+    transition-timing-function: ease-in;
+    transition-delay: 1000ms;
 }
 
 .phoneIcon{
@@ -343,8 +375,12 @@ h3.techSpecsTitle{
 }
 
 .appIcon{
-    padding:10px 0 0 0;
+    width:75px;
+    height:75px;
+    background:transparent;
+    padding:5px 0 0 0;
 }
+
 
 h3.appsTitle{
     font-size:2.5em;
@@ -358,23 +394,93 @@ h4.appTitle {
 }
 
 .clockAppIcon{
+    width:70px;
+    height:70px;
+    padding:8px 0;
     color:#b28685;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.clockAppIcon:hover{
+    color:#fff;
+    background:#b28685;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .weatherAppIcon{
-    color:#84bde9;
+    width:70px;
+    height:70px;
+    padding:8px 0;
+    color:#61bdea;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.weatherAppIcon:hover{
+    color:#fff;
+    background:#61bdea;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .contactAppIcon{
-    color:#3fbe2a;
+    width:70px;
+    height:70px;
+    padding:8px 0;
+    color:#8ed6e6;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.contactAppIcon:hover{
+    color:#fff;
+    background:#8ed6e6;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .mediaPlayerAppIcon{
+    width:70px;
+    height:70px;
+    padding:8px 0;
     color:#ca345c;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.mediaPlayerAppIcon:hover{
+    color:#fff;
+    background:#ca345c;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .messagingAppIcon{
+    width:70px;
+    height:70px;
+    padding:8px 0;
     color:#a1e97a;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+.messagingAppIcon:hover{
+    color:#fff;
+    background:#a1e97a;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
 
 .backBtn {
