@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e803e7-fd1b-487b-ab3e-b395b02bb301" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="uWatch.iws" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="405" column="62" selection-start="17006" selection-end="17006" vertical-scroll-proportion="-3.652174" vertical-offset="5586" max-vertical-offset="10374">
+            <state line="485" column="67" selection-start="20602" selection-end="20617" vertical-scroll-proportion="0.75961536" vertical-offset="6316" max-vertical-offset="10374">
               <folding />
             </state>
           </provider>
@@ -37,16 +38,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="668" column="0" selection-start="27973" selection-end="27973" vertical-scroll-proportion="-21.913044" vertical-offset="8848" max-vertical-offset="10374">
+            <state line="465" column="67" selection-start="19811" selection-end="19811" vertical-scroll-proportion="-10.166667" vertical-offset="6022" max-vertical-offset="10374">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="380" column="18" selection-start="6670" selection-end="6670" vertical-scroll-proportion="0.4181818" vertical-offset="5044" max-vertical-offset="9870">
+            <state line="592" column="20" selection-start="10445" selection-end="10445" vertical-scroll-proportion="-14.4" vertical-offset="7928" max-vertical-offset="10038">
               <folding />
             </state>
           </provider>
@@ -70,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -197,23 +198,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="592" column="20" selection-start="10445" selection-end="10445" vertical-scroll-proportion="-14.4" vertical-offset="7928" max-vertical-offset="10038">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="668" column="0" selection-start="27973" selection-end="27973" vertical-scroll-proportion="-21.913044" vertical-offset="8848" max-vertical-offset="10374">
+        <state line="465" column="67" selection-start="19811" selection-end="19811" vertical-scroll-proportion="-10.166667" vertical-offset="6022" max-vertical-offset="10374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="405" column="62" selection-start="17006" selection-end="17006" vertical-scroll-proportion="-3.652174" vertical-offset="5586" max-vertical-offset="10374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="380" column="18" selection-start="6670" selection-end="6670" vertical-scroll-proportion="0.4181818" vertical-offset="5044" max-vertical-offset="9870">
+        <state line="485" column="67" selection-start="20602" selection-end="20617" vertical-scroll-proportion="0.75961536" vertical-offset="6316" max-vertical-offset="10374">
           <folding />
         </state>
       </provider>

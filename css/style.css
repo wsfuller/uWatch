@@ -585,6 +585,18 @@ h4.appTitle {
     h3.appsTitle{
         font-size:2.2em;
     }
+
+    h4.appTitle{
+        padding:0 0 0 5px;
+    }
+
+    .appsSectionText p{
+        padding:0 0 0 5px;
+    }
+
+    .appIcon{
+        width: 56px;
+    }
 }
 
 @media (max-width:767px){
