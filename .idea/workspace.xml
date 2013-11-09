@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e803e7-fd1b-487b-ab3e-b395b02bb301" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="uWatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="427" column="53" selection-start="18233" selection-end="18233" vertical-scroll-proportion="0.6040062" vertical-offset="5586" max-vertical-offset="10374">
+            <state line="405" column="62" selection-start="17006" selection-end="17006" vertical-scroll-proportion="-3.652174" vertical-offset="5586" max-vertical-offset="10374">
               <folding />
             </state>
           </provider>
@@ -44,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="461" column="23" selection-start="8336" selection-end="8336" vertical-scroll-proportion="-7.6" vertical-offset="6264" max-vertical-offset="9856">
+            <state line="380" column="18" selection-start="6670" selection-end="6670" vertical-scroll-proportion="0.4181818" vertical-offset="5044" max-vertical-offset="9870">
               <folding />
             </state>
           </provider>
@@ -71,9 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -198,13 +197,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="461" column="23" selection-start="8336" selection-end="8336" vertical-scroll-proportion="-7.6" vertical-offset="6264" max-vertical-offset="9856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="668" column="0" selection-start="27973" selection-end="27973" vertical-scroll-proportion="-21.913044" vertical-offset="8848" max-vertical-offset="10374">
@@ -214,7 +206,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="427" column="53" selection-start="18233" selection-end="18233" vertical-scroll-proportion="0.6040062" vertical-offset="5586" max-vertical-offset="10374">
+        <state line="405" column="62" selection-start="17006" selection-end="17006" vertical-scroll-proportion="-3.652174" vertical-offset="5586" max-vertical-offset="10374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="380" column="18" selection-start="6670" selection-end="6670" vertical-scroll-proportion="0.4181818" vertical-offset="5044" max-vertical-offset="9870">
           <folding />
         </state>
       </provider>
