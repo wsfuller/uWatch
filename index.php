@@ -14,31 +14,25 @@
 <!--navigation-->
 <section>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header container">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="container hidden-sm">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#home">uWatch</a>
             </div>
 
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse container">
-            <div class="navbar-left hidden-xs hidden-md hidden-lg">
-                <a class="navbar-brand" href="#home">uWatch</a>
+            <div class="collapse navbar-collapse navbar-ex1-collapse container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#techSpecs">Tech Specs</a></li>
+                    <li><a href="#apps">Apps</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#techSpecs">Tech Specs</a></li>
-                <li><a href="#apps">Apps</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
         </div>
     </nav>
 </section>

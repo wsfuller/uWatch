@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54e803e7-fd1b-487b-ab3e-b395b02bb301" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="uWatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="485" column="67" selection-start="20602" selection-end="20617" vertical-scroll-proportion="0.75961536" vertical-offset="6316" max-vertical-offset="10374">
+            <state line="39" column="0" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.7852564" vertical-offset="56" max-vertical-offset="10290">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="465" column="67" selection-start="19811" selection-end="19811" vertical-scroll-proportion="-10.166667" vertical-offset="6022" max-vertical-offset="10374">
+            <state line="11" column="0" selection-start="304" selection-end="1409" vertical-scroll-proportion="-3.2083333" vertical-offset="0" max-vertical-offset="10290">
               <folding />
             </state>
           </provider>
@@ -71,9 +71,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -207,14 +207,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="465" column="67" selection-start="19811" selection-end="19811" vertical-scroll-proportion="-10.166667" vertical-offset="6022" max-vertical-offset="10374">
+        <state line="11" column="0" selection-start="304" selection-end="1409" vertical-scroll-proportion="-3.2083333" vertical-offset="0" max-vertical-offset="10290">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="485" column="67" selection-start="20602" selection-end="20617" vertical-scroll-proportion="0.75961536" vertical-offset="6316" max-vertical-offset="10374">
+        <state line="39" column="0" selection-start="1470" selection-end="1470" vertical-scroll-proportion="0.7852564" vertical-offset="56" max-vertical-offset="10290">
           <folding />
         </state>
       </provider>
