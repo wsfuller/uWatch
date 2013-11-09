@@ -425,10 +425,10 @@
                                     <i class="fa fa-music fa-2x"></i>
                                 </button>
                             </div>
-                            <div class="uWatchDialPad hidden"></div>
-                            <div class="uWatchContacts hidden"></div>
-                            <div class="uWatchMessaging hidden"></div>
-                            <div class="uWatchMediaPlayer hidden"></div>
+                            <div class="uWatchDialPad"></div>
+                            <div class="uWatchContacts"></div>
+                            <div class="uWatchMessaging"></div>
+                            <div class="uWatchMediaPlayer"></div>
                         </div>
 
                     </div>
@@ -627,35 +627,44 @@
             }
         });
 
+        $(".uWatchDialPad,.uWatchContacts,.uWatchMessaging,.uWatchMediaPlayer").hide();
+
         $(".phoneIcon").click(function(){
-            $(".uWatchAppIcon").hide();
-            $(".uWatchShellClock,.uWatchShellWeather").hide();
-            $(".uWatchDialPad").removeClass("hidden");
+            $(".uWatchAppIcon,.uWatchShellClock,.uWatchShellWeather").fadeOut("slow", function(){
+                $(this).hide();
+            });
+            $(".uWatchDialPad").delay(500).fadeIn("slow");
         });
 
         $(".contactsIcon").click(function(){
-            $(".uWatchAppIcon").hide();
-            $(".uWatchShellClock,.uWatchShellWeather").hide();
-            $(".uWatchContacts").removeClass("hidden");
+            $(".uWatchAppIcon,.uWatchAppIcon,.uWatchShellClock,.uWatchShellWeather").fadeOut("slow", function(){
+                $(this).hide();
+            });
+            $(".uWatchContacts").delay(500).fadeIn("slow");
         });
 
         $(".messageIcon").click(function(){
-            $(".uWatchAppIcon").hide();
-            $(".uWatchShellClock,.uWatchShellWeather").hide();
-            $(".uWatchMessaging").removeClass("hidden");
+            $(".uWatchAppIcon,.uWatchAppIcon,.uWatchShellClock,.uWatchShellWeather").fadeOut("slow", function(){
+            });
+            $(".uWatchMessaging").delay(500).fadeIn("slow");
         });
 
         $(".mediaPlayerIcon").click(function(){
-            $(".uWatchAppIcon").hide();
-            $(".uWatchShellClock,.uWatchShellWeather").hide();
-            $(".uWatchMediaPlayer").removeClass("hidden");
+            $(".uWatchAppIcon,.uWatchAppIcon,.uWatchShellClock,.uWatchShellWeather").fadeOut("slow", function(){
+                $(this).hide();
+            });
+            $(".uWatchMediaPlayer").delay(500).fadeIn("slow");
         });
 
         $(".backBtn").click(function(){
-            $(".uWatchDialPad, .uWatchContacts, .uWatchMessaging, .uWatchMediaPlayer").addClass("hidden");
-            $(".uWatchAppIcon").show();
-            $(".uWatchShellClock,.uWatchShellWeather").show();
-        })
+            $(".uWatchDialPad, .uWatchContacts, .uWatchMessaging, .uWatchMediaPlayer").fadeOut("slow",function(){
+
+                $(this).hide();
+            });
+            $(".uWatchAppIcon,.uWatchShellClock,.uWatchShellWeather").delay(500).fadeIn("slow",function(){
+                $(this).show();
+            });
+        });
     });
 
     $(function() {
